@@ -20,9 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.stoptypingapp.com/og-image.png">
 <meta name="twitter:creator" content="@kevintraver">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/fonts/fonts.css">
 <script>
 window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
@@ -137,7 +135,7 @@ Works with any dictation app
 </li>
 <li style="display: flex; align-items: center; gap: 12px; padding: 16px 18px; background: #FFFFFF; border: 1px solid #E3E3E8; border-radius: 14px; font-size: 15px">
 <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D1D1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h.01"></path><path d="M8.5 16.429a5 5 0 0 1 7 0"></path><path d="M5 12.859a10 10 0 0 1 5.17-2.69"></path><path d="M19 12.859a10 10 0 0 0-2.007-1.523"></path><path d="M2 8.82a15 15 0 0 1 4.177-2.643"></path><path d="M22 8.82a15 15 0 0 0-11.288-3.764"></path><path d="m2 2 20 20"></path></svg>
-Sandboxed, and offline by default
+Typing detection stays on your Mac
 </li>
 </ul>
 </section>
@@ -279,8 +277,8 @@ Download for Mac
 <section id="privacy" style="background: #111113; color: #F5F5F7">
 <div style="max-width: 1160px; margin: 0 auto; padding: clamp(64px, 10vw, 104px) 24px; display: flex; flex-direction: column; gap: 52px">
 <div style="display: flex; flex-direction: column; gap: 14px; max-width: 760px">
-<h2 style="margin: 0; font-size: clamp(34px, 4.8vw, 60px); line-height: 1.04; font-weight: 650; letter-spacing: -0.035em">It counts your keys. It never reads them.</h2>
-<p style="margin: 0; font-size: 19px; color: #A1A1AA">Each key press becomes a number the moment it arrives. The character itself is gone before anything else happens.</p>
+<h2 style="margin: 0; font-size: clamp(34px, 4.8vw, 60px); line-height: 1.04; font-weight: 650; letter-spacing: -0.035em">Your typing stays on your Mac.</h2>
+<p style="margin: 0; font-size: 19px; color: #A1A1AA">Each key is briefly classified on your Mac as a letter, word break or other character. Only counts and timing go to the detector, not your text.</p>
 </div>
 <ul class="feature-list" style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1px; background: #2A2A2E; border: 1px solid #2A2A2E; border-radius: 22px; overflow: hidden">
 <li style="background: #111113; padding: 28px">
@@ -290,18 +288,18 @@ Download for Mac
 </li>
 <li style="background: #111113; padding: 28px">
 <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F5F5F7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-<h3 style="margin: 0; font-size: 19px; font-weight: 600">Nothing is kept</h3>
-<p style="margin: 0; color: #A1A1AA; font-size: 16px">Characters are never stored, logged or sent anywhere. Even the stats only know how much you typed, not what.</p>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">No typing history</h3>
+<p style="margin: 0; color: #A1A1AA; font-size: 16px">The app does not save, log or send your text. The input-monitoring code has no analytics. Stats record how much you typed, not what.</p>
 </li>
 <li style="background: #111113; padding: 28px">
 <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F5F5F7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>
-<h3 style="margin: 0; font-size: 19px; font-weight: 600">Sandboxed, offline by default</h3>
-<p style="margin: 0; color: #A1A1AA; font-size: 16px">The app runs inside the macOS App Sandbox and, by default, makes no network connections. If you turn on update checks, it asks GitHub once a day for a newer version. Nothing you type is ever sent.</p>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Local detection, optional updates</h3>
+<p style="margin: 0; color: #A1A1AA; font-size: 16px">The keyboard-monitoring app is sandboxed without network access. Optional automatic and manual update checks use Sparkle’s separate helpers to contact GitHub.</p>
 </li>
 <li style="background: #111113; padding: 28px">
 <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F5F5F7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="12" x="2" y="6" rx="2"></rect><path d="M12 12h.01"></path><path d="M17 12h.01"></path><path d="M7 12h.01"></path></svg>
-<h3 style="margin: 0; font-size: 19px; font-weight: 600">Passwords stay invisible</h3>
-<p style="margin: 0; color: #A1A1AA; font-size: 16px">In password fields that turn on macOS secure input, macOS hides your keystrokes from every app, Stop Typing App included. Anywhere else you’d rather it never listened, like a terminal, click Ignore.</p>
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Respects Secure Event Input</h3>
+<p style="margin: 0; color: #A1A1AA; font-size: 16px">When an app enables macOS Secure Event Input, its keystrokes are hidden from Stop Typing App. Custom password fields depend on the app using them; ordinary text fields are not protected this way. Use Ignore for apps you do not want monitored.</p>
 </li>
 <li style="background: #111113; padding: 28px">
 <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F5F5F7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
@@ -311,9 +309,14 @@ Download for Mac
 <li style="background: #111113; padding: 28px">
 <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#F5F5F7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg>
 <h3 style="margin: 0; font-size: 19px; font-weight: 600">Stats stay on your Mac</h3>
-<p style="margin: 0; color: #A1A1AA; font-size: 16px">Today’s numbers are a nudge count and a word estimate, saved locally and reset each day.</p>
+<p style="margin: 0; color: #A1A1AA; font-size: 16px">A nudge count and word estimate are saved locally. Old counts reset at midnight while running, or when the app next starts or wakes. Settings and your ignore list stay until you change or remove them.</p>
 </li>
 </ul>
+<div style="display: grid; gap: 20px; max-width: 860px; color: #A1A1AA; font-size: 16px">
+<p style="margin: 0"><strong style="color: #F5F5F7">Updates and local diagnostics.</strong> Automatic checks are off by default. If you enable them or check manually, GitHub and its download servers receive your IP address, app and updater versions, and request language, never your typing. Sparkle’s helpers run outside the app sandbox and may keep local update logs, preferences and downloads. System profiling is disabled.</p>
+<p style="margin: 0"><strong style="color: #F5F5F7">Your Mac controls system records.</strong> Optional notifications contain only generic reminders, but macOS keeps delivery times and may produce its own diagnostics. The app cannot erase records while stopped or remove copies in system backups.</p>
+<p style="margin: 0"><strong style="color: #F5F5F7">This website.</strong> It uses Vercel Web Analytics and Speed Insights for cookie-free, aggregate visit and page-speed stats. No third-party font service is loaded; fonts and images are served with the page. Our hosting provider still receives ordinary web requests, including your IP address. Following a download or external link connects to that provider.</p>
+</div>
 </div>
 </section>
 
