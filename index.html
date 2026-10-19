@@ -52,20 +52,20 @@ details[open] .faq-plus{transform:rotate(45deg)}
 
 <main>
 
+<div style="min-height: calc(100svh - 84px); display: flex; flex-direction: column; justify-content: center">
+
 <!-- Hero -->
-<section style="max-width: 1160px; margin: 0 auto; padding: 20px 24px 40px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
+<section style="width: calc(100% - 48px); max-width: 1160px; margin: 0 auto; padding: 20px 24px 40px; display: flex; flex-wrap: wrap; align-items: center; gap: 56px">
 <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
 <h1 style="margin: 0; font-size: clamp(46px, 5.8vw, 84px); line-height: 1; font-weight: 650; letter-spacing: -0.045em">Less typing, more talking.</h1>
-<p style="margin: 0; font-size: clamp(18px, 1.7vw, 21px); line-height: 1.5; color: #5B5B63; max-width: 34em">A menu bar app that catches you typing paragraphs out of habit and nudges you to dictate instead. Shortcuts and code don’t count.</p>
+<p style="margin: 0; font-size: clamp(18px, 1.7vw, 21px); line-height: 1.5; color: #5B5B63; max-width: 34em">A menu bar app that catches you typing paragraphs out of habit and nudges you to dictate instead. It won’t trigger on code or shortcuts.</p>
 <p style="margin: -10px 0 0; display: flex; align-items: center; gap: 10px; font-size: clamp(17px, 1.5vw, 19px); font-weight: 600; color: #1D1D1F"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D9203F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex: none"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>Nothing you type is ever stored.</p>
 <div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 4px">
 <a href="#download" style="display: inline-flex; align-items: center; gap: 10px; min-height: 50px; padding: 0 24px; border-radius: 999px; background: #D9203F; color: #FFFFFF; font-weight: 600; font-size: 16px">
 <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg>
 Download for Mac
 </a>
-<a href="#how" style="display: inline-flex; align-items: center; min-height: 50px; padding: 0 24px; border-radius: 999px; border: 1px solid #D2D2D8; background: #FFFFFF; font-weight: 500; font-size: 16px">See how it works</a>
 </div>
-<p style="margin: 0; font-size: 14px; color: #5B5B63">Bring your own dictation app: Superwhisper or macOS Dictation.</p>
 </div>
 
 <figure role="img" aria-label="A Mac screen: someone is typing a long paragraph in a notes window, and a small banner at the top of the screen says “You’re typing a lot. Use dictation instead.”" style="flex: 1 1 520px; min-width: 0; margin: 0">
@@ -103,7 +103,7 @@ Download for Mac
 </section>
 
 <!-- Trust strip -->
-<section aria-label="At a glance" style="max-width: 1160px; margin: 0 auto; padding: 24px 24px 72px">
+<section aria-label="At a glance" style="width: calc(100% - 48px); max-width: 1160px; margin: 0 auto; padding: 24px 24px 56px">
 <ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px">
 <li style="display: flex; align-items: center; gap: 12px; padding: 16px 18px; background: #FFFFFF; border: 1px solid #E3E3E8; border-radius: 14px; font-size: 15px">
 <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1D1D1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0"></path><path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4"></path></svg>
@@ -120,34 +120,58 @@ Sandboxed, with no network access
 </ul>
 </section>
 
+</div>
+
 <!-- Why -->
-<section aria-labelledby="why-title" style="max-width: 1160px; margin: 0 auto; padding: 24px 24px 104px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px 72px">
+<section aria-labelledby="why-title" style="background: #FFFFFF; border-top: 1px solid #E3E3E8; border-bottom: 1px solid #E3E3E8">
+<div style="max-width: 1160px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 48px 72px">
 <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
-<p style="margin: 0; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #5B5B63">Why</p>
 <h2 id="why-title" style="margin: 0; font-size: clamp(34px, 4.4vw, 54px); line-height: 1.05; font-weight: 650; letter-spacing: -0.035em">Typing is a habit. This is how you break it.</h2>
 <p style="margin: 0; font-size: 19px; line-height: 1.6; color: #3A3A40">You learned to type in school, and your hands still reach for the keyboard before you’ve thought about it. Dictation is fast and accurate now. You just forget to use it. Stop Typing App catches that moment and reminds you, until talking is the habit.</p>
 </div>
 <ol class="habit-steps" style="flex: 1 1 360px; min-width: 0; max-width: 460px; list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 16px">
-<li style="display: flex; align-items: center; gap: 16px; padding: 18px; background: #FFFFFF; border: 1px solid #E3E3E8; border-radius: 16px">
+<li style="display: flex; align-items: center; gap: 16px; padding: 18px; background: #F5F5F7; border: 1px solid #E3E3E8; border-radius: 16px">
 <span style="flex: none; width: 44px; height: 44px; border-radius: 12px; background: #EDEDF0; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1D1D1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="M6 8h.01"></path><path d="M10 8h.01"></path><path d="M14 8h.01"></path><path d="M18 8h.01"></path><path d="M8 12h.01"></path><path d="M12 12h.01"></path><path d="M16 12h.01"></path><path d="M7 16h10"></path></svg></span>
 <span style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-weight: 600; font-size: 17px">You start typing</span><span style="font-size: 15px; color: #5B5B63">Out of habit, a paragraph in.</span></span>
 </li>
-<li style="display: flex; align-items: center; gap: 16px; padding: 18px; background: #FFFFFF; border: 1px solid #E3E3E8; border-radius: 16px">
+<li style="display: flex; align-items: center; gap: 16px; padding: 18px; background: #F5F5F7; border: 1px solid #E3E3E8; border-radius: 16px">
 <span style="flex: none; width: 44px; height: 44px; border-radius: 12px; background: #FDE8EC; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#D9203F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.268 21a2 2 0 0 0 3.464 0"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"></path></svg></span>
 <span style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-weight: 600; font-size: 17px">It nudges</span><span style="font-size: 15px; color: #5B5B63">A small banner, right where you’re typing.</span></span>
 </li>
-<li style="display: flex; align-items: center; gap: 16px; padding: 18px; background: #FFFFFF; border: 1px solid #E3E3E8; border-radius: 16px">
+<li style="display: flex; align-items: center; gap: 16px; padding: 18px; background: #F5F5F7; border: 1px solid #E3E3E8; border-radius: 16px">
 <span style="flex: none; width: 44px; height: 44px; border-radius: 12px; background: #E5F1FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0A84FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19v3"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><rect x="9" y="2" width="6" height="13" rx="3"></rect></svg></span>
 <span style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-weight: 600; font-size: 17px">You say it instead</span><span style="font-size: 15px; color: #5B5B63">With the dictation you already have.</span></span>
 </li>
 </ol>
+</div>
+</section>
+
+<!-- Download -->
+<section id="download" style="max-width: 1160px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center">
+<img src="/icon.png" alt="Stop Typing App icon" style="width: 112px; height: 112px">
+<h2 style="margin: 0; font-size: clamp(40px, 5vw, 64px); line-height: 1.05; font-weight: 650; letter-spacing: -0.04em">Stop typing.<br>Start talking.</h2>
+<p style="margin: 0; font-size: 19px; color: #5B5B63">Make talking the habit.</p>
+<a href="https://github.com/kevintraver/stop-typing-app/releases/latest/download/StopTypingApp-latest.dmg" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 28px; border-radius: 999px; background: #D9203F; color: #FFFFFF; font-weight: 600; font-size: 17px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg>
+Download for Mac
+</a>
+<p style="margin: 0; font-size: 14px; color: #5B5B63">Requires macOS 15 or later</p>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px; padding-top: 10px; max-width: 100%">
+<p style="margin: 0; font-size: 14px; color: #5B5B63">Or install with Homebrew:</p>
+<div style="display: inline-flex; align-items: center; gap: 4px; max-width: 100%; padding: 4px 4px 4px 16px; border: 1px solid #E3E3E8; border-radius: 10px; background: #FFFFFF">
+<code id="brew-command" style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; color: #1D1D1F; text-align: left; user-select: all; overflow-wrap: anywhere">brew install --cask kevintraver/tap/stop-typing-app</code>
+<button type="button" id="brew-copy" aria-label="Copy Homebrew command" style="flex: none; display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border: 0; border-radius: 7px; background: transparent; color: #5B5B63; cursor: pointer">
+<svg data-icon="copy" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg>
+<svg data-icon="check" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1F9D55" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display: none"><path d="M20 6 9 17l-5-5"></path></svg>
+</button>
+</div>
+</div>
 </section>
 
 <!-- How it works -->
 <section id="how" style="background: #FFFFFF; border-top: 1px solid #E3E3E8; border-bottom: 1px solid #E3E3E8">
 <div style="max-width: 1160px; margin: 0 auto; padding: 96px 24px; display: flex; flex-direction: column; gap: 48px">
 <div style="display: flex; flex-direction: column; gap: 14px; max-width: 720px">
-<p style="margin: 0; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #5B5B63">How it works</p>
 <h2 style="margin: 0; font-size: clamp(34px, 4.4vw, 54px); line-height: 1.05; font-weight: 650; letter-spacing: -0.035em">You type. It nudges.</h2>
 <p style="margin: 0; font-size: 19px; color: #5B5B63">Gently at first, and firmer if you keep going.</p>
 </div>
@@ -202,7 +226,6 @@ Sandboxed, with no network access
 <!-- Detection -->
 <section aria-labelledby="detection-title" style="max-width: 1160px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
 <div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
-<p style="margin: 0; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #5B5B63">Detection</p>
 <h2 id="detection-title" style="margin: 0; font-size: clamp(34px, 4.4vw, 54px); line-height: 1.05; font-weight: 650; letter-spacing: -0.035em">It knows prose from everything else.</h2>
 <p style="margin: 0; font-size: 19px; color: #5B5B63">Only typing that reads like sentences counts. Shortcuts, code and Vim motions never do.</p>
 </div>
@@ -236,7 +259,6 @@ Sandboxed, with no network access
 <section id="privacy" style="background: #111113; color: #F5F5F7">
 <div style="max-width: 1160px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 52px">
 <div style="display: flex; flex-direction: column; gap: 14px; max-width: 760px">
-<p style="margin: 0; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #A1A1AA">Privacy</p>
 <h2 style="margin: 0; font-size: clamp(34px, 4.8vw, 60px); line-height: 1.04; font-weight: 650; letter-spacing: -0.035em">It counts your keys. It never reads them.</h2>
 <p style="margin: 0; font-size: 19px; color: #A1A1AA">Each key press becomes a number the moment it arrives. The character itself is gone before anything else happens.</p>
 </div>
@@ -278,7 +300,6 @@ Sandboxed, with no network access
 <!-- Features -->
 <section id="features" style="max-width: 1160px; margin: 0 auto; padding: 104px 24px; display: flex; flex-direction: column; gap: 52px">
 <div style="display: flex; flex-direction: column; gap: 14px; max-width: 720px">
-<p style="margin: 0; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #5B5B63">Features</p>
 <h2 style="margin: 0; font-size: clamp(34px, 4.4vw, 54px); line-height: 1.05; font-weight: 650; letter-spacing: -0.035em">Everything lives in the menu bar.</h2>
 </div>
 
@@ -396,22 +417,9 @@ Sandboxed, with no network access
 </div>
 </section>
 
-<!-- Download -->
-<section id="download" style="max-width: 1160px; margin: 0 auto; padding: 112px 24px; display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center">
-<img src="/icon.png" alt="Stop Typing App icon" style="width: 112px; height: 112px">
-<h2 style="margin: 0; font-size: clamp(48px, 7vw, 96px); line-height: 1; font-weight: 650; letter-spacing: -0.045em; max-width: 14em">Start talking.</h2>
-<p style="margin: 0; font-size: 19px; color: #5B5B63">Make talking the habit.</p>
-<a href="https://github.com/kevintraver/stop-typing-app/releases/latest/download/StopTypingApp-latest.dmg" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 28px; border-radius: 999px; background: #D9203F; color: #FFFFFF; font-weight: 600; font-size: 17px">
-<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="m7 10 5 5 5-5"></path></svg>
-Download for Mac
-</a>
-<p style="margin: 0; font-size: 14px; color: #5B5B63">Requires macOS 15 or later</p>
-<p style="margin: 0; font-size: 14px; color: #5B5B63">or <code style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; color: #1D1D1F; background: #F2F2F5; padding: 3px 8px; border-radius: 6px; user-select: all; overflow-wrap: anywhere">brew install --cask kevintraver/tap/stop-typing-app</code></p>
-</section>
-
 </main>
 
-<footer style="border-top: 1px solid #E3E3E8">
+<footer>
 <div style="max-width: 1160px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; font-size: 14px; color: #5B5B63">
 <span style="display: flex; align-items: center; gap: 10px"><img src="/icon.png" alt="" style="width: 20px; height: 20px; filter: drop-shadow(0 0 0.5px rgba(0,0,0,0.4)) drop-shadow(0 1px 1.5px rgba(0,0,0,0.14))"><span style="font-weight: 600; color: #1D1D1F">Stop Typing App</span><span>© 2026 Kevin Traver</span></span>
 <nav aria-label="Footer" style="display: flex; flex-wrap: wrap; align-items: center; gap: 0 20px">
@@ -429,6 +437,20 @@ Download for Mac
 </footer>
 
 </div>
+<script>
+const brewCopy = document.getElementById('brew-copy');
+brewCopy.addEventListener('click', async () => {
+  await navigator.clipboard.writeText(document.getElementById('brew-command').textContent);
+  brewCopy.querySelector('[data-icon="copy"]').style.display = 'none';
+  brewCopy.querySelector('[data-icon="check"]').style.display = '';
+  brewCopy.setAttribute('aria-label', 'Copied');
+  setTimeout(() => {
+    brewCopy.querySelector('[data-icon="copy"]').style.display = '';
+    brewCopy.querySelector('[data-icon="check"]').style.display = 'none';
+    brewCopy.setAttribute('aria-label', 'Copy Homebrew command');
+  }, 1600);
+});
+</script>
 <script>
 window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
