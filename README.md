@@ -12,4 +12,4 @@ python3 -m http.server 8000
 
 ## Analytics
 
-The page loads [Vercel Web Analytics](https://vercel.com/docs/analytics) from `/_vercel/insights/script.js`. It only works on a Vercel deployment with Analytics turned on for the project, so the request 404s when previewing locally.
+The page loads [Vercel Web Analytics](https://vercel.com/docs/analytics) from `/_vercel/insights/script.js` and [Vercel Speed Insights](https://vercel.com/docs/speed-insights) from `/_vercel/speed-insights/script.js`. Both are initialized in the `<head>` section and only work on Vercel deployments with Analytics and Speed Insights enabled for the project, so the requests 404 when previewing locally.
