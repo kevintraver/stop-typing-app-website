@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What’s new · Stop Typing App</title>
+<meta name="description" content="What changed in each release of Stop Typing App.">
+<meta name="theme-color" content="#F5F5F7">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<script>
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script>
+window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
+<style>
+body{margin:0;background:#F5F5F7}
+a{color:#1D1D1F;text-decoration:none}a:hover{color:#5B5B63}
+h1,h2,h3{text-wrap:balance}
+a:focus-visible{outline:2px solid #0A84FF;outline-offset:3px;border-radius:8px}
+section:target h2 a{text-decoration:underline;text-underline-offset:4px}
+@media (max-width: 600px){.nav-link{display:none}}
+</style>
+</head>
+<body>
+<div id="top" style="min-height: 100vh; background: #F5F5F7; color: #1D1D1F; font-family: 'Geist', system-ui, -apple-system, sans-serif; font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased">
+
+<header style="max-width: 1160px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="/" style="display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 18px; letter-spacing: -0.01em; min-height: 44px">
+<img src="/icon.png" alt="" style="width: 34px; height: 34px; filter: drop-shadow(0 0 0.5px rgba(0,0,0,0.4)) drop-shadow(0 1px 2px rgba(0,0,0,0.14))">
+<span>Stop Typing App</span>
+</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 24px; font-size: 15px">
+<a href="/#how" class="nav-link" style="color: #5B5B63; padding: 10px 0">How it works</a>
+<a href="/#privacy" class="nav-link" style="color: #5B5B63; padding: 10px 0">Privacy</a>
+<a href="/#features" class="nav-link" style="color: #5B5B63; padding: 10px 0">Features</a>
+<a href="/#faq" class="nav-link" style="color: #5B5B63; padding: 10px 0">FAQ</a>
+<a href="/#download" style="background: #1D1D1F; color: #FFFFFF; padding: 11px 18px; border-radius: 999px; font-weight: 500">Download</a>
+</nav>
+</header>
+
+<main style="max-width: 720px; margin: 0 auto; padding: clamp(32px, 6vw, 56px) 24px clamp(64px, 10vw, 96px); display: flex; flex-direction: column; gap: 48px">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<h1 style="margin: 0; font-size: clamp(34px, 4.4vw, 54px); line-height: 1.05; font-weight: 650; letter-spacing: -0.035em">What’s new</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #5B5B63">What changed in each release. The app installs updates itself once you turn on automatic checks in Settings, and every version is on <a href="https://github.com/kevintraver/stop-typing-app/releases" style="color: #1D1D1F; text-decoration: underline; text-underline-offset: 3px">GitHub</a>.</p>
+</div>
+
+<section id="v1-0-5" style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; color: #1D1D1F"><a href="#v1-0-5" style="color: inherit">1.0.5</a><span style="font-size: 15px; font-weight: 400; color: #5B5B63">October 20, 2026</span></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">Sharper prose detection, an Advanced group for tuning it, and a Try It tab to watch it work.</p>
+<h3 style="margin: 4px 0 0; font-size: 17px; line-height: 1.4; font-weight: 600; color: #1D1D1F">What changed</h3>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px">
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Try It.</strong> Settings → Try It is a text box with a live readout of what the detector sees: how long the burst is, its word breaks and letter share, whether it reads as prose yet and why not, and which nudge comes next. It's the real detector, so the nudge really appears.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Advanced detection settings.</strong> Settings → Detection → Advanced exposes the letter share, word breaks per character, the short-burst pause, the sustained-typing threshold and how often firm nudges repeat. Restore Defaults covers them too.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Vim motions stay ignored.</strong> A burst now needs a word break at least every 12 characters, not just two anywhere, so navigation keys with the odd ⏎ or space no longer count as prose. Ordinary prose has one every 5 to 8.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Symbol keys count against prose.</strong> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">=</code> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">+</code> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">|</code> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">&lt;</code> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">&gt;</code> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">$</code> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">^</code> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">~</code> and the backtick now count like punctuation instead of being skipped, so code is a little less likely to read as prose.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Detection settings carry over.</strong> Settings saved by 1.0.4 keep every value as new ones are added.</li>
+</ul>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">Nothing you type is stored, logged or sent, and automatic update checks stay off unless you turn them on.</p>
+</section>
+
+<section id="v1-0-4" style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; color: #1D1D1F"><a href="#v1-0-4" style="color: inherit">1.0.4</a><span style="font-size: 15px; font-weight: 400; color: #5B5B63">October 19, 2026</span></h2>
+<h3 style="margin: 4px 0 0; font-size: 17px; line-height: 1.4; font-weight: 600; color: #1D1D1F">What changed</h3>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px">
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Reset your statistics.</strong> Settings → General now shows today's nudge and word counts in a Statistics section, with a Reset Statistics action that starts them over from zero.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Homebrew upgrades work.</strong> <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">brew upgrade</code> now updates Stop Typing App like any other app. Before, Homebrew skipped it because it assumed the app updated itself.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Update checks are explicitly profile-free.</strong> Sparkle's optional system profiling is now switched off outright, not just off by default, and Settings describes exactly what an update check sends: your IP address, the app and updater versions and your language, never your typing.</li>
+</ul>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">Nothing you type is stored, logged or sent, and automatic update checks stay off unless you turn them on.</p>
+</section>
+
+<section id="v1-0-3" style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; color: #1D1D1F"><a href="#v1-0-3" style="color: inherit">1.0.3</a><span style="font-size: 15px; font-weight: 400; color: #5B5B63">October 19, 2026</span></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">You can now dismiss the nudge instead of waiting for it to fade.</p>
+<h3 style="margin: 4px 0 0; font-size: 17px; line-height: 1.4; font-weight: 600; color: #1D1D1F">What changed</h3>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px">
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Press Esc</strong> to hide the nudge instantly. You don't need to click it first, and Esc already tells Stop Typing App to drop whatever you were typing from the count.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Click the nudge</strong> to dismiss it. Dragging still moves it, and the click that ends a drag won't dismiss it by accident.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Hover for a ✕</strong> in the corner of the nudge to close it. VoiceOver users get a Dismiss action too.</li>
+</ul>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">Nothing you type is stored, logged or sent, and automatic update checks stay off unless you turn them on.</p>
+</section>
+
+<section id="v1-0-2" style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; color: #1D1D1F"><a href="#v1-0-2" style="color: inherit">1.0.2</a><span style="font-size: 15px; font-weight: 400; color: #5B5B63">October 19, 2026</span></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">More privacy hardening on top of 1.0.1.</p>
+<h3 style="margin: 4px 0 0; font-size: 17px; line-height: 1.4; font-weight: 600; color: #1D1D1F">What changed</h3>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px">
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Keys are only read when they're going to the app in front of you.</strong> The keyboard listener now checks which app each key is headed for and reduces it to counts only if that's the frontmost app and it isn't on your Ignore list. Keys going anywhere else, such as Spotlight or a password manager's quick-access window floating over another app, aren't read at all. If you switch apps mid-sentence, anything already counted for the previous app is thrown away rather than carried over.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Yesterday's numbers are cleared at midnight, even if you don't type.</strong> Today's two counts (nudges and a word estimate) are now reset at midnight, after waking from sleep, and when the clock or time zone changes, not just the next time you type or launch the app.</li>
+</ul>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">Nothing you type is stored, logged or sent, and automatic update checks stay off unless you turn them on.</p>
+</section>
+
+<section id="v1-0-1" style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; color: #1D1D1F"><a href="#v1-0-1" style="color: inherit">1.0.1</a><span style="font-size: 15px; font-weight: 400; color: #5B5B63">October 19, 2026</span></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">A privacy release. Everyone on 1.0.0 should update.</p>
+<h3 style="margin: 4px 0 0; font-size: 17px; line-height: 1.4; font-weight: 600; color: #1D1D1F">What changed</h3>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 10px">
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Keys become counts the moment they arrive.</strong> Inside the keyboard listener, each key press is reduced to whether it was a letter, a space or something else, and the character is dropped right there. Nothing further along can tell which key you pressed. (1.0.0 passed the characters on to the detector in memory. They were never saved or sent, but they lived longer than they needed to.)</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">No logging at all.</strong> 1.0.0 wrote activity entries to the macOS system log: when nudges fired, gaps between bursts of typing, Focus changes, and the ID of an ignored app when a key was skipped. Never what you typed. 1.0.1 writes nothing. Entries 1.0.0 already wrote age out of the system log on their own over the coming days.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">No network connections unless you opt in.</strong> 1.0.0 checked GitHub for updates automatically. Automatic checks are now off. Turn them on in the setup window or Settings if you want them; a check sends the app's name and version, your language and your IP address, never anything you typed. You can always check by hand with Check for Updates…, and Homebrew users can keep using <code style="font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 15px; color: #1D1D1F">brew upgrade</code>.</li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Keys aren't read at all while you're snoozed, typing in an ignored app, or looking at the stop window.</strong></li>
+<li style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63"><strong style="color: #1D1D1F; font-weight: 600">Today's stats really reset each day.</strong> A previous day's counts are cleared at launch instead of lingering until you next type.</li>
+</ul>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">After this update, 1.0.0's automatic checks stop: this is the last update you'll get without opting in.</p>
+</section>
+
+<section id="v1-0-0" style="display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; color: #1D1D1F"><a href="#v1-0-0" style="color: inherit">1.0.0</a><span style="font-size: 15px; font-weight: 400; color: #5B5B63">October 19, 2026</span></h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #5B5B63">The first public release.</p>
+</section>
+</main>
+
+<footer>
+<div style="max-width: 1160px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; font-size: 14px; color: #5B5B63">
+<span style="display: flex; align-items: center; gap: 10px"><img src="/icon.png" alt="" style="width: 20px; height: 20px; filter: drop-shadow(0 0 0.5px rgba(0,0,0,0.4)) drop-shadow(0 1px 1.5px rgba(0,0,0,0.14))"><span style="font-weight: 600; color: #1D1D1F">Stop Typing App</span><span>© 2026 Kevin Traver</span></span>
+<nav aria-label="Footer" style="display: flex; flex-wrap: wrap; align-items: center; gap: 0 20px">
+<a href="/#how" style="color: #5B5B63; padding: 12px 0">How it works</a>
+<a href="/privacy.html" style="color: #5B5B63; padding: 12px 0">Privacy</a>
+<a href="/#features" style="color: #5B5B63; padding: 12px 0">Features</a>
+<a href="/#faq" style="color: #5B5B63; padding: 12px 0">FAQ</a>
+<a href="/changelog.html" style="color: #5B5B63; padding: 12px 0">What’s new</a>
+<a href="/#download" style="color: #5B5B63; padding: 12px 0">Download</a>
+<span style="display: flex; align-items: center; gap: 4px">
+<a href="https://github.com/kevintraver/stop-typing-app" aria-label="Stop Typing App on GitHub" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; color: #5B5B63"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
+<a href="https://x.com/kevintraver" aria-label="Kevin Traver on X" style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; color: #5B5B63"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+</span>
+</nav>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
